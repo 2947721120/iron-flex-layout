@@ -12,16 +12,16 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 <html>
 <head>
 
-  <title>iron-flex-layout demo</title>
+  <title>铁柔性布局演示</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+  <script src="//cdn.c2cmalls.com/bower_components/webcomponentsjs/webcomponents-lite.js"></script>
 
-  <link rel="import" href="../../paper-styles/demo-pages.html">
-  <link rel="import" href="../../iron-demo-helpers/demo-snippet.html">
-  <link rel="import" href="../../iron-demo-helpers/demo-pages-shared-styles.html">
-  <link rel="import" href="../iron-flex-layout.html">
+  <link rel="import" href="//cdn.c2cmalls.com/bower_components/paper-styles/demo-pages.html">
+  <link rel="import" href="//cdn.c2cmalls.com/bower_components/iron-demo-helpers/demo-snippet.html">
+  <link rel="import" href="//cdn.c2cmalls.com/bower_components/iron-demo-helpers/demo-pages-shared-styles.html">
+  <link rel="import" href="//cdn.c2cmalls.com/bower_components/iron-flex-layout/iron-flex-layout.html">
 
   <style is="custom-style" include="demo-pages-shared-styles">
     demo-snippet {
@@ -49,7 +49,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 </head>
 <body unresolved class="fullbleed">
   <div class="vertical-section-container centered">
-    <h4>Horizontal and vertical layout</h4>
+    <h4>水平和垂直布局</h4>
     <demo-snippet>
       <template>
         <style is="custom-style">
@@ -58,14 +58,14 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           }
         </style>
         <div class="container flex">
-          <div>one</div>
-          <div>two</div>
-          <div>three</div>
+          <div>一</div>
+          <div>二</div>
+          <div>三</div>
         </div>
       </template>
     </demo-snippet>
 
-    <h4>Flexible children</h4>
+    <h4>灵活的孩子</h4>
     <demo-snippet>
       <template>
         <style is="custom-style">
@@ -78,14 +78,14 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         </style>
 
         <div class="container flex-horizontal">
-          <div>one</div>
-          <div class="flexchild">two (flex)</div>
-          <div>three</div>
+          <div>一</div>
+          <div class="flexchild">二 (柔性)</div>
+          <div>三</div>
         </div>
       </template>
     </demo-snippet>
 
-    <h4>Flexible children in vertical layouts</h4>
+    <h4>灵活的儿童在垂直布局</h4>
     <demo-snippet>
       <template>
         <style is="custom-style">
@@ -99,14 +99,14 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         </style>
 
         <div class="container flex-vertical">
-          <div>one</div>
-          <div class="flexchild-vertical">two (flex)</div>
-          <div>three</div>
+          <div>一</div>
+          <div class="flexchild-vertical">二 (柔性)</div>
+          <div>三</div>
         </div>
       </template>
     </demo-snippet>
 
-    <h4>Flex ratios</h4>
+    <h4>弯曲比</h4>
     <demo-snippet>
       <template>
         <style is="custom-style">
@@ -132,7 +132,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       </template>
     </demo-snippet>
 
-    <h4>Cross-axis stretch alignment (default)</h4>
+    <h4>交叉轴拉伸对齐（默认）</h4>
     <demo-snippet>
       <template>
         <style is="custom-style">
@@ -143,12 +143,12 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         </style>
 
         <div class="container flex-stretch-align">
-          <div>stretch</div>
+          <div>伸展</div>
         </div>
       </template>
     </demo-snippet>
 
-    <h4>Cross-axis center alignment</h4>
+    <h4>横轴中心对齐</h4>
     <demo-snippet>
       <template>
         <style is="custom-style">
@@ -160,12 +160,12 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         </style>
 
         <div class="container flex-center-align">
-          <div>center</div>
+          <div>中心</div>
         </div>
       </template>
     </demo-snippet>
 
-    <h4>Cross-axis start alignment</h4>
+    <h4>交叉轴启动对齐</h4>
     <demo-snippet>
       <template>
         <style is="custom-style">
@@ -177,12 +177,12 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         </style>
 
         <div class="container flex-start-align">
-          <div>start</div>
+          <div>开始</div>
         </div>
       </template>
     </demo-snippet>
 
-    <h4>Cross-axis end alignment</h4>
+    <h4>十字轴端对齐</h4>
     <demo-snippet>
       <template>
         <style is="custom-style">
@@ -194,12 +194,12 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         </style>
 
         <div class="container flex-end-align">
-          <div>end</div>
+          <div>结束</div>
         </div>
       </template>
     </demo-snippet>
 
-    <h4>Justification, start justified</h4>
+    <h4>理由，开始证明</h4>
     <demo-snippet>
       <template>
         <style is="custom-style">
@@ -210,12 +210,12 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         </style>
 
         <div class="container flex-start-justified">
-          <div>start-justified</div>
+          <div>开始对齐</div>
         </div>
       </template>
     </demo-snippet>
 
-    <h4>Justification, center justified</h4>
+    <h4>对齐，中心对齐</h4>
     <demo-snippet>
       <template>
         <style is="custom-style">
@@ -226,12 +226,12 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         </style>
 
         <div class="container flex-center-justified">
-          <div>center-justified</div>
+          <div>中心对齐</div>
         </div>
       </template>
     </demo-snippet>
 
-    <h4>Justification, end justified</h4>
+    <h4>理由，结束对称</h4>
     <demo-snippet>
       <template>
         <style is="custom-style">
@@ -247,7 +247,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       </template>
     </demo-snippet>
 
-    <h4>Justification, equal space between elements</h4>
+    <h4>对齐，元素之间的空间相等</h4>
     <demo-snippet>
       <template>
         <style is="custom-style">
@@ -265,7 +265,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       </template>
     </demo-snippet>
 
-    <h4>Justification, equal space around each element</h4>
+    <h4>对齐，每个元素周围的空间相等</h4>
     <demo-snippet>
       <template>
         <style is="custom-style">
@@ -282,7 +282,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       </template>
     </demo-snippet>
 
-    <h4>Self alignment</h4>
+    <h4>自对准</h4>
     <demo-snippet>
       <template>
         <style is="custom-style">
@@ -309,15 +309,15 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         </style>
 
         <div class="container flex-self-align">
-          <div class="child1">one</div>
-          <div class="child2">two</div>
-          <div class="child3">three</div>
-          <div class="child4">four</div>
+          <div class="child1">一</div>
+          <div class="child2">二</div>
+          <div class="child3">三</div>
+          <div class="child4">四</div>
         </div>
       </template>
     </demo-snippet>
 
-    <h4>Wrapping</h4>
+    <h4>包装</h4>
     <demo-snippet>
       <template>
         <style is="custom-style">
@@ -329,15 +329,15 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         </style>
 
         <div class="container flex-wrap">
-          <div>one</div>
-          <div>two</div>
-          <div>three</div>
-          <div>four</div>
+          <div>一</div>
+          <div>二</div>
+          <div>三</div>
+          <div>四</div>
         </div>
       </template>
     </demo-snippet>
 
-    <h4>Reversed layouts</h4>
+    <h4>反转布局</h4>
     <demo-snippet>
       <template>
         <style is="custom-style">
@@ -347,15 +347,15 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         </style>
 
         <div class="container flex-reversed">
-          <div>one</div>
-          <div>two</div>
-          <div>three</div>
-          <div>four</div>
+          <div>一</div>
+          <div>二</div>
+          <div>三</div>
+          <div>四</div>
         </div>
       </template>
     </demo-snippet>
 
-    <h4>General purpose rules</h4>
+    <h4>通用规则</h4>
     <demo-snippet>
       <template>
         <style is="custom-style">
@@ -382,11 +382,11 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         </style>
 
         <div class="general">
-          <div>Before <span>[A Span]</span> After</div>
-          <div>Before <span class="block">[A Block Span]</span> After</div>
-          <div>Before invisible span <span class="invisible">Not displayed</span> After invisible span</div>
+          <div>之前 <span>[跨度]</span> 后</div>
+          <div>之前 <span class="block">[块跨度]</span> 后</div>
+          <div>在不可见跨度之前 <span class="invisible">不显示</span> 后无形跨度</div>
           <div class="relative" style="height: 100px;">
-            <div class="fit" style="background-color: #000;color: white">Fit</div>
+            <div class="fit" style="background-color: #000;color: white">适合</div>
           </div>
         </div>
       </template>

@@ -10,15 +10,15 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 -->
 <html>
   <head>
-    <title>iron-flex-layout tests</title>
+    <title>铁 - 柔性布局测试</title>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes">
 
-    <script src="../../webcomponentsjs/webcomponents.js"></script>
-    <script src="../../web-component-tester/browser.js"></script>
-    <link rel="import" href="../iron-flex-layout.html">
+    <script src="//cdn.c2cmalls.com/bower_components/webcomponentsjs/webcomponents.js"></script>
+    <script src="//cdn.c2cmalls.com/bower_components/web-component-tester/browser.js"></script>
+    <link rel="import" href="//cdn.c2cmalls.com/bower_components/iron-flex-layout/iron-flex-layout.html">
 
     <style is="custom-style">
       body {
@@ -32,11 +32,11 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       }
       .container > div {
         width: 50px;
-        min-height: 50px; /* so that it can grow in vertical layouts. */
+        min-height: 50px; /*使其可以在垂直布局中增长. */
       }
-      /* IE11 does not calculate flex proportions correctly in a vertical
-       * layout if the children just have a min-height. For those tests,
-       * use a fixed height instead. */
+      /*IE11不能在垂直中正确计算弯曲比例
+        *布局如果孩子们只有一个最小高度。 对于那些测试，
+        *使用固定高度. */
       .container > div.fixed-height {
         min-height: 0;
         height: 50px;

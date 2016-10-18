@@ -1,14 +1,14 @@
 
 <!---
 
-This README is automatically generated from the comments in these files:
+此README是从这些文件中的注释自动生成的:
 iron-flex-layout.html
 
-Edit those files, and our readme bot will duplicate them over here!
-Edit this file, and the bot will squash your changes :)
+编辑这些文件，我们的readme bot将在这里复制它们！
+编辑此文件，机器人将压缩您的更改 :)
 
-The bot does some handling of markdown. Please file a bug if it does the wrong
-thing! https://github.com/PolymerLabs/tedium/issues
+男孩做一些处理的降价。 如果错误，请提交错误
+事情! https://github.com/PolymerLabs/tedium/issues
 
 -->
 
@@ -19,33 +19,33 @@ _[Demo and API docs](https://elements.polymer-project.org/elements/iron-flex-lay
 
 ##&lt;iron-flex-layout&gt;
 
-The `<iron-flex-layout>` component provides simple ways to use
+该 `<iron-flex-layout>` component provides simple ways to use
 [CSS flexible box layout](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Flexible_boxes),
 also known as flexbox. This component provides two different ways to use flexbox:
 
 1. [Layout classes](https://github.com/PolymerElements/iron-flex-layout/tree/master/iron-flex-layout-classes.html).
-The layout class stylesheet provides a simple set of class-based flexbox rules, that
-let you specify layout properties directly in markup. You must include this file
-in every element that needs to use them.
+布局类样式表提供了一组简单的基于类的flexbox规则
+让您直接在标记中指定布局属性。 您必须包括此文件
+在每个需要使用它们的元素.
 
-Sample use:
+样品使用:
 
    <link rel="import" href="../iron-flex-layout/iron-flex-layout-classes.html">
 
    <style is="custom-style" include="iron-flex iron-flex-alignment"></style>
 
    <div class="layout horizontal layout-start">
-     <div>cross axis start alignment</div>
+     <div>横轴开始对齐</div>
    </div>
 
-1. [Custom CSS mixins](https://github.com/PolymerElements/iron-flex-layout/blob/master/iron-flex-layout.html).
-The mixin stylesheet includes custom CSS mixins that can be applied inside a CSS rule using the `@apply` function.
+1. [自定义CSS混合](https://github.com/PolymerElements/iron-flex-layout/blob/master/iron-flex-layout.html).
+mixin样式表包括可以在CSS规则中使用`@ apply`函数应用的自定义CSS混合.
 
 
 
-Please note that the old [/deep/ layout classes](https://github.com/PolymerElements/iron-flex-layout/tree/master/classes)
-are deprecated, and should not be used. To continue using layout properties
-directly in markup, please switch to using the new `dom-module`-based
+请注意老 [/deep/ layout classes](https://github.com/PolymerElements/iron-flex-layout/tree/master/classes)
+已弃用，不应使用。 继续使用布局属性
+直接在标记中，请切换到使用新的 `dom-module`-based
 [layout classes](https://github.com/PolymerElements/iron-flex-layout/tree/master/iron-flex-layout-classes.html).
 Please note that the new version does not use `/deep/`, and therefore requires you
 to import the `dom-modules` in every element that needs to use them.

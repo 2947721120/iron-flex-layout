@@ -9,29 +9,29 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 -->
 
 <!--
-A set of layout classes that let you specify layout properties directly in markup.
-You must include this file in every element that needs to use them.
+一组布局类，允许您直接在标记中指定布局属性。
+您必须将此文件包含在需要使用它们的每个元素中.
 
-Sample use:
+样品使用:
 
     <link rel="import" href="../iron-flex-layout/iron-flex-layout-classes.html">
     <style is="custom-style" include="iron-flex iron-flex-alignment"></style>
 
     <div class="layout horizontal layout-start">
-      <div>cross axis start alignment</div>
+      <div>横轴开始对齐</div>
     </div>
 
-The following imports are available:
- - iron-flex
- - iron-flex-reverse
- - iron-flex-alignment
- - iron-flex-factors
- - iron-positioning
+以下导入可用：
+  - 钢铁
+  - 铁 - 反转
+  - 钢 - 柔性对准
+  - 铁柔性因素
+  - 铁定位
 -->
 
-<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="//cdn.c2cmalls.com/bower_components/polymer/polymer.html">
 
-<!-- Most common used flex styles-->
+<!--最常用的flex样式-->
 <dom-module id="iron-flex">
   <template>
     <style>
@@ -109,7 +109,7 @@ The following imports are available:
   </template>
 </dom-module>
 
-<!-- Basic flexbox reverse styles -->
+<!-- 基本Flexbox的反向样式 -->
 <dom-module id="iron-flex-reverse">
   <template>
     <style>
@@ -141,12 +141,12 @@ The following imports are available:
   </template>
 </dom-module>
 
-<!-- Flexbox alignment -->
+<!-- Flexbox的对齐 -->
 <dom-module id="iron-flex-alignment">
   <template>
     <style>
       /**
-       * Alignment in cross axis.
+       * 横轴对齐.
        */
       .layout.start {
         -ms-flex-align: start;
@@ -174,7 +174,7 @@ The following imports are available:
       }
 
       /**
-       * Alignment in main axis.
+       * 主轴上的对准.
        */
       .layout.start-justified {
         -ms-flex-pack: start;
@@ -208,7 +208,7 @@ The following imports are available:
       }
 
       /**
-       * Self alignment.
+       * 自对准.
        */
       .self-start {
         -ms-align-self: flex-start;
@@ -241,7 +241,7 @@ The following imports are available:
       }
 
       /**
-       * multi-line alignment in main axis.
+       * 多轴线在主轴上对齐.
        */
       .layout.start-aligned {
         -ms-flex-line-pack: start;  /* IE10 */
@@ -362,7 +362,7 @@ The following imports are available:
   </template>
 </dom-module>
 
-<!-- Non-flexbox positioning helper styles -->
+<!-- 非Flexbox的定位辅助样式 -->
 <dom-module id="iron-positioning">
   <template>
     <style>
@@ -370,7 +370,7 @@ The following imports are available:
         display: block;
       }
 
-      /* IE 10 support for HTML5 hidden attr */
+      /* IE 10支持HTML5隐藏attr */
       [hidden] {
         display: none !important;
       }
@@ -401,7 +401,7 @@ The following imports are available:
         overflow: auto;
       }
 
-      /* fixed position */
+      /* 固定位置 */
       .fixed-bottom,
       .fixed-left,
       .fixed-right,
